@@ -1,6 +1,7 @@
 package javabanco.entidade;
 
 import java.util.ArrayList;
+import java.util.Date;
 
 public class ContaCorrente {
 	
@@ -18,6 +19,7 @@ public class ContaCorrente {
 	}
 	public float credito(float valor){
 		saldo += valor;
+		//Operacoes o = new Operacoes (valor, "CREDITO", new Date())
 		operacoes.add(valor);
 		return saldo;
 	}
