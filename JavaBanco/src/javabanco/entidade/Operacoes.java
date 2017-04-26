@@ -27,9 +27,11 @@ public class Operacoes {
 		return valor;
 	}
 	
-	public String toString(){
+ 
+	
+	public String toString() {
 		
-		return "valor: " + this.getValor() + "," + this.getTipoOperacao() + "," + this.getDataHora() ;
+		return "[valor: " + this.getValor() + "," + this.getTipoOperacao() + "," + this.getDataHora() + "]";
 		
 	}
 	
